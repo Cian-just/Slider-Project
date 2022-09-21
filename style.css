@@ -6,7 +6,7 @@ body{
     position: fixed;
     top: 0;
     left: 0;
-     right: 0;
+    right: 0;
     height: 60px;
     background-color: rgb(38, 70, 83);
 }
@@ -220,4 +220,73 @@ footer{
 .activity-item img{
     width: 350px;
     height: auto;
+}
+.page-title{
+    padding: 10px;
+    margin: 0;
+}
+.page-title h1{
+    text-align: center;
+    padding: 0;
+    margin: 50px;
+}
+.all-projects{
+    margin-top: 5%;
+}
+.project-detail{
+    margin: 50px 30px 100px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 5px grey;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.project-img{
+    margin: 5px;
+}
+.project-img img{
+    width: 350px;
+    height: auto;
+    border-radius: 5px;
+}
+.project-description{
+    margin: 5px;
+}
+.project-description h3{
+    margin: 0 5px 5px;
+    padding: 0;
+    font-size: 23px;
+}
+.project-description p{
+    margin: 20px 5px;
+    padding: 0;
+    line-height: 1.8;
+    text-indent: 40px;
+}
+.project-link p{
+    text-indent: 0;
+}
+.project-link a{
+    color: cadetblue;
+    text-decoration: underline;
+    margin: 0;
+    padding: 0;
+}
+.project-link a:visited{
+    color: red;
+}
+.project-link a:hover{
+    color: purple;
+}
+.rocket-container{
+    position: relative;
+}
+.rocket-container img{
+    position: relative;
+    width: 180px;
+    top: 0;
+    right: 0;
+    transform: translateY(-50%);
 }
