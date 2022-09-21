@@ -50,6 +50,7 @@ body{
     width: 100%;
     position: absolute;
     clip-path: circle(0% at 0 50%);
+    margin: 50px;
 }
 .slide img{
     width: 100%;
@@ -100,11 +101,13 @@ body{
     position: absolute;
     top: 410px;
     z-index: 2;
+    margin: 50px;
 }
 .wave2{
     position: absolute;
     top: 450px;
     z-index: 3;
+    margin: 50px;
 }
 footer{
     background-color: rgb(38, 70, 83);
@@ -117,6 +120,7 @@ footer{
     flex-direction: column;
     justify-content: center;
     width: 100%;
+    margin: 50px;
 }
 .info-top{
     text-align: center;
