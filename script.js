@@ -44,3 +44,5 @@ var repeat = function(activeClass){
     repeater();
 }
 repeat();
+
+AOS.init();
